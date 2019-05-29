@@ -4,51 +4,61 @@
 	border: none;
 	outline: none;
 }
+
 body{
-	font-family: arial;
+	font-family: Arial;
 	font-size: 13px;
-	line-height:1.5em;
-	color: #6F6;
-	background-color: #FF9;
+	line-height: 1.5em;
+	color: #B22222;
+	background-color: #66CDAA;
 }
+
 .clearfix{
 	clear: both;
 }
+
 #container{
 	width: 330px;
 	min-height: 400px;
-	background: #F66;
-	overflow: auto;
+	background: #468EFF;
+	overflow:auto;
 	margin: 60px auto;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border-radius:10px;
-	border: #FC0 solid 2px;
+	border-radius: 10px;
+	border: #7B68EE solid 2px;
 }
-#auidio-image{
-	position: relative;
-	overflow: hidden;
+
+#audio-image{
+	position:relative;
+	overflow:hidden;
 	height: 200px;
-	margin-bottom: 15px;
+	margin-bottom: 15px;	
 }
+
 #audio-info{
-	text-align: center;
+	text-align:center;
 }
-#auidio-info.artist{
+
+#audio-info .artist{
 	font-weight: bold;
 }
+
 .cover{
 	width: 100%;
 	z-index: 1;
 }
-input#volume {
+
+input#volume{
 	width: 95%;
 	margin-left: 2%;
-	-webkit-appearance: none !important;
-	background: #6FF;
+	-webkit-appearance: none;
+	background: #48D1CC;
 	height: 1px;
 	margin-bottom: 20px;
 }
+
+
 #buttons{
 	width: 90%;
 	display: block;
@@ -56,56 +66,71 @@ input#volume {
 	margin-left: 23px;
 	overflow: auto;
 }
+
 button#play{
 	width: 70px;
 	height: 70px;
-	background: url(../images/play.png) no-repeat;float:left;
+	background:url(../images/play.png) no-repeat;
+	float:left;
 }
-button#puse{
+
+button#pause{
 	width: 70px;
 	height: 70px;
-	background: url(../images/pause.png) no-repeat;float:left;
+	background:url(../images/pause.png) no-repeat;
+	float:left;
 }
+
 button#stop{
 	width: 70px;
 	height: 70px;
-	background: url(../images/stop.png) no-repeat;float:left;
+	background:url(../images/stop.png) no-repeat;
+	float:left;
 }
+
+
 #playlist{
-	list-style-type: none;
+	list-style-type:none;
 	padding: 10px;
 }
-#playlist li {
+
+#playlist li{
 	cursor: pointer;
 	margin: 5px;
 }
+
 #tracker{
-	position: relative;
-	width: 100%;
+	position:relative;
+	width:100%;
 }
+
 #playlist li.active{
-	font-weight: bold;
+	font-weight:bold;
 	padding: 3px;
-	background: #F00;
+	background: #FFDEAD;
 }
+
 #progressBar{
-	width:80%;
+	width: 80%;
 	margin-left:2%;
-	margin-bottom:20px;
-	margin-top:9px;
-	height:10px;
+	margin-bottom: 20px;
+	margin-top: 9px;
+	height: 10px;
 	background:url(../images/progress_bg.png) no-repeat;
+	float:left;
 }
+
 #progress{
-	background:url(../images/progress.png) no-repeat;
+	background:url(../images/progress.png) no-repeat;float:left;
 	height:10px;
 	display:inline-block;
 }
+
 #duration{
-	position: absolute;
-	top: 0;
+	position:absolute;
+	top:0;
 	right: 10px;
 	padding: 4px 8px;
-	background: #CF6;
-	border-radius:5px;
+	background: #E0FFFF;
+	border-radius: 5px;
 }
