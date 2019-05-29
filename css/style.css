@@ -34,14 +34,14 @@ body{
 #audio-info{
 	text-align: center;
 }
-#auidio-info .artist{
+#auidio-info.artist{
 	font-weight: bold;
 }
 .cover{
 	width: 100%;
 	z-index: 1;
 }
-input#volumen {
+input#volume {
 	width: 95%;
 	margin-left: 2%;
 	-webkit-appearance: none !important;
